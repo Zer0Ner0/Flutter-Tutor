@@ -1,0 +1,19 @@
+{
+   "java.configuration.updateBuildConfiguration": "automatic",
+"version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "flutter",
+      "args": [
+        "build"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
